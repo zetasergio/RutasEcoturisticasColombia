@@ -17,14 +17,18 @@
         android:id="@+id/spn_dpt"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="81dp" />
+        android:layout_marginTop="81dp"
+        android:entries="@array/departamentos"
+        />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spn_ciudad"
         android:layout_below="@+id/spn_dpt"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:entries="@array/ciudades"
+        />
 
     <CheckBox
         android:layout_width="wrap_content"
