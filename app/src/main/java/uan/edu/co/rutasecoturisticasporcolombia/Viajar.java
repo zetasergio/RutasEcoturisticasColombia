@@ -21,6 +21,7 @@ public class Viajar extends AppCompatActivity {
             public void onClick(View v) {
 
                 Viajar.this.startActivity(new Intent(Viajar.this, Menu.class));
+                finish();
             }
         });
     }

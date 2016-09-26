@@ -21,6 +21,7 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
 
                 Menu.this.startActivity(new Intent(Menu.this, Buscar.class));
+                finish();
             }
         });
 
@@ -32,6 +33,7 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
 
                 Menu.this.startActivity(new Intent(Menu.this, Viajar.class));
+                finish();
             }
         });
 

@@ -21,6 +21,7 @@ public class Lugares extends AppCompatActivity {
             public void onClick(View v) {
 
                 Lugares.this.startActivity(new Intent(Lugares.this, Playa.class));
+                finish();
             }
         });
 

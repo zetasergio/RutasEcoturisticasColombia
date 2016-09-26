@@ -21,6 +21,7 @@ public class Ingresar extends AppCompatActivity {
             public void onClick(View v) {
 
                 Ingresar.this.startActivity(new Intent(Ingresar.this, Menu.class));
+                finish();
             }
         });
 
@@ -32,6 +33,7 @@ public class Ingresar extends AppCompatActivity {
             public void onClick(View v) {
 
                 Ingresar.this.startActivity(new Intent(Ingresar.this, Registrar.class));
+                finish();
             }
         });
 

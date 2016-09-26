@@ -21,6 +21,7 @@ public class Registrar extends AppCompatActivity {
             public void onClick(View v) {
 
                 Registrar.this.startActivity(new Intent(Registrar.this, Ingresar.class));
+                finish();
             }
         });
 
