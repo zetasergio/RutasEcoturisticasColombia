@@ -24,10 +24,10 @@
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/spn_ciudad"
+        android:id="@+id/spn_categ"
         android:layout_below="@+id/spn_dpt"
         android:layout_alignParentStart="true"
-        android:entries="@array/ciudades"
+        android:entries="@array/categorias"
         />
 
     <CheckBox
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:text="Sitios"
         android:id="@+id/ckb_sitios"
-        android:layout_below="@+id/spn_ciudad"
+        android:layout_below="@+id/spn_categ"
         android:layout_alignParentStart="true"
         android:checked="false" />
 
