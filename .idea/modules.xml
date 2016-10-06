@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RutasEcoturisticasPorColombia.iml" filepath="$PROJECT_DIR$/RutasEcoturisticasPorColombia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RutasEcoturisticasColombia.iml" filepath="$PROJECT_DIR$/RutasEcoturisticasColombia.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

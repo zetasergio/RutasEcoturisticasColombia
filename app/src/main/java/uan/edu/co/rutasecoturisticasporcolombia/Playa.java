@@ -22,6 +22,7 @@ public class Playa extends AppCompatActivity {
             public void onClick(View v) {
 
                 Playa.this.startActivity(new Intent(Playa.this, Lugares.class));
+                finish();
             }
         });
 
@@ -31,6 +32,7 @@ public class Playa extends AppCompatActivity {
             public void onClick(View v) {
 
                 Playa.this.startActivity(new Intent(Playa.this, Cotizar.class));
+                finish();
             }
         });
 

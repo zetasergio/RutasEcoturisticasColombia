@@ -21,6 +21,7 @@ public class Cotizar extends AppCompatActivity {
             public void onClick(View v) {
 
                 Cotizar.this.startActivity(new Intent(Cotizar.this, Menu.class));
+                finish();
             }
         });
 
